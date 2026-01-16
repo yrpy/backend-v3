@@ -20,6 +20,7 @@ app.use(cors())
 // middleware bodyparser
 app.use(express.json())
 
+// Test API
 app.get('/', (req, res) => {
     res.send({ msg: 'Welcome to MERN CRUD App!'})
 })
